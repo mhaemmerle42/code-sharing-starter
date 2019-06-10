@@ -1,0 +1,15 @@
+<div class="margin-left">
+  <button (click)="resolveUsers()" class="btn">Get Users</button>
+  <ng-container *ngIf="users$ | async as users">
+    <h2>Users:</h2>
+    <ul class="users">
+      <li *ngFor="let user of users">
+        <ul class="no-list-style">
+          <li>Username: {{user.username}}</li>
+          <li>Firstname: {{user.firstname}}</li>
+          <li>Lastname: {{user.lastname}}</li>
+        </ul>
+      </li>
+    </ul>
+  </ng-container>
+</div>

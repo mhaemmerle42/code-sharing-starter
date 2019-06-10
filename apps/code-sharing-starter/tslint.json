@@ -4,14 +4,18 @@
     "directive-selector": [
       true,
       "attribute",
-      "codeSharingStarter",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "code-sharing-starter",
       "kebab-case"
+    ],
+    "import-blacklist": [
+      true,
+      [
+        "^@nestjs.*"
+      ]
     ]
   }
 }

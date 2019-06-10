@@ -12,13 +12,13 @@
       "tags": []
     },
     "code-sharing-starter": {
-      "tags": []
+      "tags": ["scope:backend"]
     },
     "api": {
-      "tags": []
+      "tags": ["scope:frontend"]
     },
-    "api-interface": {
-      "tags": []
+    "shared": {
+      "tags": ["scope:shared"]
     }
   }
 }

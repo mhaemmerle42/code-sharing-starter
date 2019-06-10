@@ -11,7 +11,7 @@
       "severity": "warn"
     },
     "forin": true,
-    "import-blacklist": [true, "rxjs/Rx"],
+    "import-blacklist": [true, "rxjs/RX"],
     "interface-over-type-literal": true,
     "member-access": false,
     "member-ordering": [
@@ -54,10 +54,19 @@
       true,
       {
         "allow": [],
+        "forbid": [],
         "depConstraints": [
           {
-            "sourceTag": "*",
-            "onlyDependOnLibsWithTags": ["*"]
+            "sourceTag": "scope:frontend",
+            "onlyDependOnLibsWithTags": ["scope:shared"]
+          },
+          {
+            "sourceTag": "scope:backend",
+            "onlyDependOnLibsWithTags": ["scope:shared"]
+          },
+          {
+            "sourceTag": "scope:shared",
+            "onlyDependOnLibsWithTags": ["scope:shared"]
           }
         ]
       }

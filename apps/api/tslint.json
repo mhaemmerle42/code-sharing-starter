@@ -1,4 +1,11 @@
 {
   "extends": "../../tslint.json",
-  "rules": {}
+  "rules": {
+    "import-blacklist": [
+      true,
+      [
+        "^@angular.*"
+      ]
+    ]
+  }
 }

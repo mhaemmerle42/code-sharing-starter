@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@code-sharing-starter/api-interface": ["libs/api-interface/src/index.ts"]
+      "@code-sharing-starter/shared": ["libs/shared/src/index.ts"],
+      "@code-sharing-starter/api": ["apps/api/src/app/user/user.service.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
