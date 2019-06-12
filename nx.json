@@ -12,13 +12,28 @@
       "tags": []
     },
     "code-sharing-starter": {
-      "tags": ["scope:backend"]
+      "tags": [
+        "scope:backend"
+      ]
     },
     "api": {
-      "tags": ["scope:frontend"]
+      "tags": [
+        "scope:frontend"
+      ]
     },
     "shared": {
-      "tags": ["scope:shared"]
+      "tags": [
+        "scope:shared"
+      ]
+    },
+    "angular-app-e2e": {
+      "tags": []
+    },
+    "angular-app": {
+      "tags": []
+    },
+    "nest-app": {
+      "tags": []
     }
   }
 }
